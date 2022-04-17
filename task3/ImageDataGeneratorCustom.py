@@ -1012,6 +1012,10 @@ class DirectoryIterator(Iterator):
         # Returns
             The next batch.
         """
+
+        print("self.index_generator")
+        print(next(self.index_generator)[1])
+
         with self.lock:
             index_array, current_index, current_batch_size = next(self.index_generator)
         # The transformation of images is not under thread lock
