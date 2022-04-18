@@ -129,5 +129,4 @@ dmypy.json
 .pyre/
 *.jpg
 task3/skincancer.ipynb
-task3/deepranking/*
-task3/submission.txt
+task3/deepranking/
