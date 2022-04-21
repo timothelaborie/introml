@@ -131,3 +131,4 @@ dmypy.json
 task3/skincancer.ipynb
 task3/deepranking/*
 task3/submission.txt
+task3/features.pickle
