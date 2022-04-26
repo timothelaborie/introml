@@ -130,6 +130,7 @@ dmypy.json
 *.jpg
 task3/skincancer.ipynb
 task3/deepranking/*
+task3/aug_triplets/*
 task3/submission.txt
 task3/features.pickle
 task3/checkpoint-5/checkpoint
