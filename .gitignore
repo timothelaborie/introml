@@ -134,3 +134,4 @@ task3/aug_triplets/*
 task3/submission.txt
 task3/features.pickle
 task3/checkpoints/*
+task3/features_test.pickle
