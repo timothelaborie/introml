@@ -140,3 +140,5 @@ task3/features_merged.pickle
 task4/submit.csv
 task4/stuff.ipynb
 task4/best.ipynb
+task4/best.csv
+task4/homo_features.ipynb
