@@ -142,3 +142,7 @@ task4/stuff.ipynb
 task4/best.ipynb
 task4/best.csv
 task4/homo_features.ipynb
+task2/catboost_info/catboost_training.json
+task2/catboost_info/learn/events.out.tfevents
+task2/catboost_info/learn_error.tsv
+task2/catboost_info/time_left.tsv

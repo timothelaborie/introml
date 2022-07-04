@@ -1,285 +1,332 @@
-training 64+64 relu for col  0
-10
-training improved neural net for col  0
-11
-training ridge 1  for col  0
-training GradientBoostingClassifier for col  0
 training HistGradientBoostingClassifier for col  0
 training ExtraTrees for col  0
 training rfc for col  0
-training decision tree for col  0
-training adaboost for col  0
+training catboost for col  0
+training XGBRFClassifier 1 for col  0
+training XGBRFClassifier 2 for col  0
+training XGBClassifier 1 for col  0
+training XGBClassifier 2 for col  0
+training catboost 1 for col  0
+training catboost 2 for col  0
+training lgbm 1 for col  0
+training lgbm 2 for col  0
+training lgbm 3 for col  0
 done training all models for col  0
-score for <class 'keras.engine.sequential.Sequential'> :  0.8791210119796056
-score for <class 'keras.engine.sequential.Sequential'> :  0.9097152943777377
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.8813808326309535
-score for <class 'sklearn.ensemble._gb.GradientBoostingClassifier'> :  0.909023738134387
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.9300018653365205
-score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.9259342227073633
-score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.9207276885026184
-score for <class 'sklearn.tree._classes.DecisionTreeClassifier'> :  0.9066609785417213
-score for <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> :  0.9170433034418914
-best model:  <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'>
-training 64+64 relu for col  1
-8
-training improved neural net for col  1
-10
-training ridge 1  for col  1
-training GradientBoostingClassifier for col  1
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.9304215660536388
+score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.9265086772691473
+score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.9206444392245727
+score for <class 'catboost.core.CatBoostClassifier'> :  0.9296571235129124
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.9235241388363065
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.9218002570019205
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.9301317480275795
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.922313224545065
+score for <class 'catboost.core.CatBoostClassifier'> :  0.9296571235129124
+score for <class 'catboost.core.CatBoostClassifier'> :  0.9323915686789273
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.9313635609965043
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.9313367899631079
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.925404501678803
+best model:  <class 'catboost.core.CatBoostClassifier'> 0.9323915686789273
 training HistGradientBoostingClassifier for col  1
 training ExtraTrees for col  1
 training rfc for col  1
-training decision tree for col  1
-training adaboost for col  1
+training catboost for col  1
+training XGBRFClassifier 1 for col  1
+training XGBRFClassifier 2 for col  1
+training XGBClassifier 1 for col  1
+training XGBClassifier 2 for col  1
+training catboost 1 for col  1
+training catboost 2 for col  1
+training lgbm 1 for col  1
+training lgbm 2 for col  1
+training lgbm 3 for col  1
 done training all models for col  1
-score for <class 'keras.engine.sequential.Sequential'> :  0.7288611925708699
-score for <class 'keras.engine.sequential.Sequential'> :  0.7511002158683611
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.745136852394917
-score for <class 'sklearn.ensemble._gb.GradientBoostingClassifier'> :  0.7939964157706094
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.8011648745519714
-score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.8060158031932225
-score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.8062011241446725
-score for <class 'sklearn.tree._classes.DecisionTreeClassifier'> :  0.76248472629521
-score for <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> :  0.7908113391984359
-best model:  <class 'sklearn.ensemble._forest.RandomForestClassifier'>
-training 64+64 relu for col  2
-5
-training improved neural net for col  2
-11
-training ridge 1  for col  2
-training GradientBoostingClassifier for col  2
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.7930698110133594
+score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.804232852720756
+score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.8072254806125774
+score for <class 'catboost.core.CatBoostClassifier'> :  0.8041890681003584
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.8058345552297165
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.8059755824372761
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.8009052215705441
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.7571572580645161
+score for <class 'catboost.core.CatBoostClassifier'> :  0.8041890681003584
+score for <class 'catboost.core.CatBoostClassifier'> :  0.8022370886282176
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7970745764092538
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.8009897360703813
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7878380579993484
+best model:  <class 'sklearn.ensemble._forest.RandomForestClassifier'> 0.8072254806125774
 training HistGradientBoostingClassifier for col  2
 training ExtraTrees for col  2
 training rfc for col  2
-training decision tree for col  2
-training adaboost for col  2
+training catboost for col  2
+training XGBRFClassifier 1 for col  2
+training XGBRFClassifier 2 for col  2
+training XGBClassifier 1 for col  2
+training XGBClassifier 2 for col  2
+training catboost 1 for col  2
+training catboost 2 for col  2
+training lgbm 1 for col  2
+training lgbm 2 for col  2
+training lgbm 3 for col  2
 done training all models for col  2
-score for <class 'keras.engine.sequential.Sequential'> :  0.5005175284898004
-score for <class 'keras.engine.sequential.Sequential'> :  0.7151223921520187
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.7083016907074376
-score for <class 'sklearn.ensemble._gb.GradientBoostingClassifier'> :  0.7258612512790483
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.7356742776712858
-score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.7440330775999182
-score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.7306065014540359
-score for <class 'sklearn.tree._classes.DecisionTreeClassifier'> :  0.693898196141582
-score for <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> :  0.7191082193055092
-best model:  <class 'sklearn.ensemble._forest.ExtraTreesClassifier'>
-training 64+64 relu for col  3
-7
-training improved neural net for col  3
-33
-training ridge 1  for col  3
-training GradientBoostingClassifier for col  3
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.7436097145148919
+score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.7442385640500123
+score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.728903518202516
+score for <class 'catboost.core.CatBoostClassifier'> :  0.7501582131294785
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.7281704004965224
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.7284689086420204
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.7435319422777505
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.7044571116611084
+score for <class 'catboost.core.CatBoostClassifier'> :  0.7501582131294785
+score for <class 'catboost.core.CatBoostClassifier'> :  0.7399262078714653
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7370223297817345
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7445551809271975
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7166052113498668
+best model:  <class 'catboost.core.CatBoostClassifier'> 0.7501582131294785
 training HistGradientBoostingClassifier for col  3
 training ExtraTrees for col  3
 training rfc for col  3
-training decision tree for col  3
-training adaboost for col  3
+training catboost for col  3
+training XGBRFClassifier 1 for col  3
+training XGBRFClassifier 2 for col  3
+training XGBClassifier 1 for col  3
+training XGBClassifier 2 for col  3
+training catboost 1 for col  3
+training catboost 2 for col  3
+training lgbm 1 for col  3
+training lgbm 2 for col  3
+training lgbm 3 for col  3
 done training all models for col  3
-score for <class 'keras.engine.sequential.Sequential'> :  0.7185946565707866
-score for <class 'keras.engine.sequential.Sequential'> :  0.7299128922541823
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.7106891669359927
-score for <class 'sklearn.ensemble._gb.GradientBoostingClassifier'> :  0.7276686365944873
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.7503520476476292
-score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.7486470212536744
-score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.7315444311063914
-score for <class 'sklearn.tree._classes.DecisionTreeClassifier'> :  0.6932412622928111
-score for <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> :  0.7305115656309156
-best model:  <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'>
-training 64+64 relu for col  4
-12
-training improved neural net for col  4
-11
-training ridge 1  for col  4
-training GradientBoostingClassifier for col  4
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.7456299921510688
+score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.7535706865506256
+score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.7314280437693337
+score for <class 'catboost.core.CatBoostClassifier'> :  0.7490527417393847
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.7309696123243609
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.7286230127583607
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.7458519937824154
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.7019822398694924
+score for <class 'catboost.core.CatBoostClassifier'> :  0.7490527417393847
+score for <class 'catboost.core.CatBoostClassifier'> :  0.748083552641704
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7412180463856441
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7461651815257706
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7254301522077041
+best model:  <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> 0.7535706865506256
 training HistGradientBoostingClassifier for col  4
 training ExtraTrees for col  4
 training rfc for col  4
-training decision tree for col  4
-training adaboost for col  4
+training catboost for col  4
+training XGBRFClassifier 1 for col  4
+training XGBRFClassifier 2 for col  4
+training XGBClassifier 1 for col  4
+training XGBClassifier 2 for col  4
+training catboost 1 for col  4
+training catboost 2 for col  4
+training lgbm 1 for col  4
+training lgbm 2 for col  4
+training lgbm 3 for col  4
 done training all models for col  4
-score for <class 'keras.engine.sequential.Sequential'> :  0.6992538444631394
-score for <class 'keras.engine.sequential.Sequential'> :  0.6956170467550381
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.7061977520596014
-score for <class 'sklearn.ensemble._gb.GradientBoostingClassifier'> :  0.7281502239603465
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.7423561689517444
-score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.7466252472658649
-score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.7305029444532866
-score for <class 'sklearn.tree._classes.DecisionTreeClassifier'> :  0.6911215449095442
-score for <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> :  0.724784566062618
-best model:  <class 'sklearn.ensemble._forest.ExtraTreesClassifier'>
-training 64+64 relu for col  5
-13
-training improved neural net for col  5
-13
-training ridge 1  for col  5
-training GradientBoostingClassifier for col  5
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.7386333492492971
+score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.7432434839286661
+score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.7287459357449808
+score for <class 'catboost.core.CatBoostClassifier'> :  0.7476641428495638
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.7283595946734576
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.7254716051628355
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.7502042548676322
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.7164650644596531
+score for <class 'catboost.core.CatBoostClassifier'> :  0.7476641428495638
+score for <class 'catboost.core.CatBoostClassifier'> :  0.7482454544765543
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.739815677982159
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7454923717059639
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7173169474697407
+best model:  <class 'xgboost.sklearn.XGBClassifier'> 0.7502042548676322
 training HistGradientBoostingClassifier for col  5
 training ExtraTrees for col  5
 training rfc for col  5
-training decision tree for col  5
-training adaboost for col  5
+training catboost for col  5
+training XGBRFClassifier 1 for col  5
+training XGBRFClassifier 2 for col  5
+training XGBClassifier 1 for col  5
+training XGBClassifier 2 for col  5
+training catboost 1 for col  5
+training catboost 2 for col  5
+training lgbm 1 for col  5
+training lgbm 2 for col  5
+training lgbm 3 for col  5
 done training all models for col  5
-score for <class 'keras.engine.sequential.Sequential'> :  0.7684442737668544
-score for <class 'keras.engine.sequential.Sequential'> :  0.7758363201911588
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.7643000085338796
-score for <class 'sklearn.ensemble._gb.GradientBoostingClassifier'> :  0.7875533367468852
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.7948487369858338
-score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.7954051459293394
-score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.7914068100358423
-score for <class 'sklearn.tree._classes.DecisionTreeClassifier'> :  0.7719267366444786
-score for <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> :  0.7867310974569038
-best model:  <class 'sklearn.ensemble._forest.ExtraTreesClassifier'>
-training 64+64 relu for col  6
-8
-training improved neural net for col  6
-18
-training ridge 1  for col  6
-training GradientBoostingClassifier for col  6
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.7929403481822836
+score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.7978701570233828
+score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.7908386670080219
+score for <class 'catboost.core.CatBoostClassifier'> :  0.7941197303294077
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.7893727598566309
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.7881306536951698
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.7961128178870115
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.7695656255333676
+score for <class 'catboost.core.CatBoostClassifier'> :  0.7941197303294077
+score for <class 'catboost.core.CatBoostClassifier'> :  0.7990087898958868
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7962169312169312
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7946394435910565
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7781886840757808
+best model:  <class 'catboost.core.CatBoostClassifier'> 0.7990087898958868
 training HistGradientBoostingClassifier for col  6
 training ExtraTrees for col  6
 training rfc for col  6
-training decision tree for col  6
-training adaboost for col  6
+training catboost for col  6
+training XGBRFClassifier 1 for col  6
+training XGBRFClassifier 2 for col  6
+training XGBClassifier 1 for col  6
+training XGBClassifier 2 for col  6
+training catboost 1 for col  6
+training catboost 2 for col  6
+training lgbm 1 for col  6
+training lgbm 2 for col  6
+training lgbm 3 for col  6
 done training all models for col  6
-score for <class 'keras.engine.sequential.Sequential'> :  0.7911931464174454
-score for <class 'keras.engine.sequential.Sequential'> :  0.8149170560747663
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.8062866043613708
-score for <class 'sklearn.ensemble._gb.GradientBoostingClassifier'> :  0.8925957943925233
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.8994867601246105
-score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.8851892523364486
-score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.8950845015576325
-score for <class 'sklearn.tree._classes.DecisionTreeClassifier'> :  0.8718457943925233
-score for <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> :  0.879516355140187
-best model:  <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'>
-training 64+64 relu for col  7
-5
-training improved neural net for col  7
-10
-training ridge 1  for col  7
-training GradientBoostingClassifier for col  7
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.8950529595015576
+score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.8852943925233645
+score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.8968894080996885
+score for <class 'catboost.core.CatBoostClassifier'> :  0.8979260124610591
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.887138629283489
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.889125
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.8941690031152648
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.877826323987539
+score for <class 'catboost.core.CatBoostClassifier'> :  0.8979260124610591
+score for <class 'catboost.core.CatBoostClassifier'> :  0.9002515576323988
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.8999859813084112
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.8971078660436136
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.8881510903426793
+best model:  <class 'catboost.core.CatBoostClassifier'> 0.9002515576323988
 training HistGradientBoostingClassifier for col  7
 training ExtraTrees for col  7
 training rfc for col  7
-training decision tree for col  7
-training adaboost for col  7
+training catboost for col  7
+training XGBRFClassifier 1 for col  7
+training XGBRFClassifier 2 for col  7
+training XGBClassifier 1 for col  7
+training XGBClassifier 2 for col  7
+training catboost 1 for col  7
+training catboost 2 for col  7
+training lgbm 1 for col  7
+training lgbm 2 for col  7
+training lgbm 3 for col  7
 done training all models for col  7
-score for <class 'keras.engine.sequential.Sequential'> :  0.7648579872878938
-score for <class 'keras.engine.sequential.Sequential'> :  0.8094789253667758
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.8020578244877311
-score for <class 'sklearn.ensemble._gb.GradientBoostingClassifier'> :  0.8236771535836955
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.8356030262572318
-score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.8327525019113804
-score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.8280839790185586
-score for <class 'sklearn.tree._classes.DecisionTreeClassifier'> :  0.8072951970148232
-score for <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> :  0.8191628724339004
-best model:  <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'>
-training 64+64 relu for col  8
-10
-training improved neural net for col  8
-13
-training ridge 1  for col  8
-training GradientBoostingClassifier for col  8
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.8307581999170784
+score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.8332515528777211
+score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.8269877405391424
+score for <class 'catboost.core.CatBoostClassifier'> :  0.8345695495228205
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.8247366859516392
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.8244282024655857
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.8356851870870563
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.8097562181674332
+score for <class 'catboost.core.CatBoostClassifier'> :  0.8345695495228205
+score for <class 'catboost.core.CatBoostClassifier'> :  0.8375353272549534
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.8347182758397712
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.8369845453957604
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.8204569055036345
+best model:  <class 'catboost.core.CatBoostClassifier'> 0.8375353272549534
 training HistGradientBoostingClassifier for col  8
 training ExtraTrees for col  8
 training rfc for col  8
-training decision tree for col  8
-training adaboost for col  8
+training catboost for col  8
+training XGBRFClassifier 1 for col  8
+training XGBRFClassifier 2 for col  8
+training XGBClassifier 1 for col  8
+training XGBClassifier 2 for col  8
+training catboost 1 for col  8
+training catboost 2 for col  8
+training lgbm 1 for col  8
+training lgbm 2 for col  8
+training lgbm 3 for col  8
 done training all models for col  8
-score for <class 'keras.engine.sequential.Sequential'> :  0.7332349168210788
-score for <class 'keras.engine.sequential.Sequential'> :  0.7055130215226731
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.7082659689275315
-score for <class 'sklearn.ensemble._gb.GradientBoostingClassifier'> :  0.7677597686872594
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.7736718861354891
-score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.7677913298446377
-score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.7661939280405612
-score for <class 'sklearn.tree._classes.DecisionTreeClassifier'> :  0.6816039176559222
-score for <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> :  0.7681099957239722
-best model:  <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'>
-training 64+64 relu for col  9
-10
-training improved neural net for col  9
-10
-training ridge 1  for col  9
-training GradientBoostingClassifier for col  9
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.7712915640080633
+score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.7973234102339598
+score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.7695628270652196
+score for <class 'catboost.core.CatBoostClassifier'> :  0.7764350145588564
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.7506658386104945
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.7544776119402986
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.7813096862210096
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.737781759687239
+score for <class 'catboost.core.CatBoostClassifier'> :  0.7764350145588564
+score for <class 'catboost.core.CatBoostClassifier'> :  0.7871678442711408
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7785058337236057
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7731750524322454
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.7686933680845431
+best model:  <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> 0.7973234102339598
 training HistGradientBoostingClassifier for col  9
 training ExtraTrees for col  9
 training rfc for col  9
-training decision tree for col  9
-training adaboost for col  9
+training catboost for col  9
+training XGBRFClassifier 1 for col  9
+training XGBRFClassifier 2 for col  9
+training XGBClassifier 1 for col  9
+training XGBClassifier 2 for col  9
+training catboost 1 for col  9
+training catboost 2 for col  9
+training lgbm 1 for col  9
+training lgbm 2 for col  9
+training lgbm 3 for col  9
 done training all models for col  9
-score for <class 'keras.engine.sequential.Sequential'> :  0.9153717089194564
-score for <class 'keras.engine.sequential.Sequential'> :  0.9085907319962526
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.8746716883889193
-score for <class 'sklearn.ensemble._gb.GradientBoostingClassifier'> :  0.9265779605860878
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.9345134852593101
-score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.9321849211462176
-score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.9328734020988345
-score for <class 'sklearn.tree._classes.DecisionTreeClassifier'> :  0.9171380430858106
-score for <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> :  0.900855203075333
-best model:  <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'>
-
-
-training improved neural net for col  10
-9
-training ridge 1  for col  10
-training GradientBoostingClassifier for col  10
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.9361016521183032
+score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.9278263116535579
+score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.9330067326003695
+score for <class 'catboost.core.CatBoostClassifier'> :  0.9341347322416751
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.924157363029458
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.9212577196000558
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.9372343714233797
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.9384402455169093
+score for <class 'catboost.core.CatBoostClassifier'> :  0.9341347322416751
+score for <class 'catboost.core.CatBoostClassifier'> :  0.9315377372515982
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.9344249915636009
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.9386455508909546
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.9385641366909021
+best model:  <class 'lightgbm.sklearn.LGBMClassifier'> 0.9386455508909546
 training HistGradientBoostingClassifier for col  10
 training ExtraTrees for col  10
 training rfc for col  10
-training decision tree for col  10
-training adaboost for col  10
+training catboost for col  10
+training XGBRFClassifier 1 for col  10
+training XGBRFClassifier 2 for col  10
+training XGBClassifier 1 for col  10
+training XGBClassifier 2 for col  10
+training catboost 1 for col  10
+training catboost 2 for col  10
+training lgbm 1 for col  10
+training lgbm 2 for col  10
+training lgbm 3 for col  10
 done training all models for col  10
-score for <class 'keras.engine.sequential.Sequential'> :  0.6713164435709625
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.647938876456453
-score for <class 'sklearn.ensemble._gb.GradientBoostingClassifier'> :  0.6811018257789081
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.6677676942006128
-score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.6780065621241023
-score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.6895618460928662
-score for <class 'sklearn.tree._classes.DecisionTreeClassifier'> :  0.6179634018447717
-score for <class 'sklearn.ensemble._weight_boosting.AdaBoostClassifier'> :  0.665579401976895
-best model:  <class 'sklearn.ensemble._forest.RandomForestClassifier'>
-
-
-
-
-training improved neural net for col  11
-12
-training ridge for col  11
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'> :  0.6801907254945678
+score for <class 'sklearn.ensemble._forest.ExtraTreesClassifier'> :  0.6744481787628304
+score for <class 'sklearn.ensemble._forest.RandomForestClassifier'> :  0.6828194287318641
+score for <class 'catboost.core.CatBoostClassifier'> :  0.6846079103323177
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.6696098508933461
+score for <class 'xgboost.sklearn.XGBRFClassifier'> :  0.6688934948540726
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.6809841534612178
+score for <class 'xgboost.sklearn.XGBClassifier'> :  0.6310112662642412
+score for <class 'catboost.core.CatBoostClassifier'> :  0.6846079103323177
+score for <class 'catboost.core.CatBoostClassifier'> :  0.6910255245708058
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.6662840595986204
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.6786458462359998
+score for <class 'lightgbm.sklearn.LGBMClassifier'> :  0.660272449263275
+best model:  <class 'catboost.core.CatBoostClassifier'> 0.6910255245708058
 training HistGradientBoostingRegressor for col  11
 done training all models for col  11
-score for <class 'keras.engine.sequential.Sequential'> :  0.6317195879883137
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.5950969297932105
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'> :  0.7152776761245461
-best model:  <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'>
-training improved neural net for col  12
-8
-training ridge for col  12
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'> :  0.7154248894101228
+best model:  <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'> 0.7154248894101228
 training HistGradientBoostingRegressor for col  12
 done training all models for col  12
-score for <class 'keras.engine.sequential.Sequential'> :  0.7813685454215302
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.7147836604807027
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'> :  0.813610810383582
-best model:  <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'>
-training improved neural net for col  13
-21
-training ridge for col  13
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'> :  0.8142114117316793
+best model:  <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'> 0.8142114117316793
 training HistGradientBoostingRegressor for col  13
 done training all models for col  13
-score for <class 'keras.engine.sequential.Sequential'> :  0.5
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.5597668048910834
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'> :  0.703028534268415
-best model:  <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'>
-training improved neural net for col  14
-14
-training ridge for col  14
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'> :  0.6976184731463436
+best model:  <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'> 0.6976184731463436
 training HistGradientBoostingRegressor for col  14
 done training all models for col  14
-score for <class 'keras.engine.sequential.Sequential'> :  0.8233921887830453
-score for <class 'sklearn.linear_model._ridge.Ridge'> :  0.8127589046327554
-score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'> :  0.8417980093866873
-best model:  <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'>
+score for <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'> :  0.8396885685927419
+best model:  <class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingRegressor'> 0.8396885685927419
 
+0.8266314839747395
+0.6910255245708058
+0.766735835720222
+0.7614642814219225
 
 final scores:
 task 1: 0.82158936657005
