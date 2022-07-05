@@ -346,3 +346,35 @@ second run:
 0.6828194287318641
 0.7658055117373257
 0.757661206077441
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+training model  HistGradientBoostingClassifier for col  10
+score for HistGradientBoostingClassifier :  0.7249253073385954 , time taken:  8 s
+training model  ExtraTreesClassifier for col  10
+score for ExtraTreesClassifier :  0.6949373573016056 , time taken:  20 s
+training model  RandomForestClassifier for col  10
+score for RandomForestClassifier :  0.6878679213492425 , time taken:  53 s
+training model  XGBRFClassifier for col  10
+score for XGBRFClassifier :  0.7078956969833156 , time taken:  16 s
+training model  XGBClassifier for col  10
+score for XGBClassifier :  0.6647592201657032 , time taken:  19 s
+training model  LGBMClassifier for col  10
+score for LGBMClassifier :  0.7127386675550715 , time taken:  5 s
+training model  CatBoostClassifier for col  10
+score for CatBoostClassifier :  0.7221310093063603 , time taken:  143 s
+best model:  HistGradientBoostingClassifier score:  0.7249253073385954 
