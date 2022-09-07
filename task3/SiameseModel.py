@@ -45,12 +45,15 @@ class SiameseModel(Model):
         return {"loss": self.loss_tracker.result()}
 
     def test_step(self, data):
-        loss = self._compute_loss(data)
-
-        # Let's update and return the loss metric.
-        self.loss_tracker.update_state(loss)
-        return {"loss": self.loss_tracker.result()}
-
+        # Compute accuracy
+        # Return 1 if the distance between the anchor and the positive is smaller than the distance between the anchor and the negative, 0 otherwise.
+        ap_distance , an_distance = self.siamese_network(data)
+        accuracy = tf.cast(ap_distance < an_distance, tf.float32)
+        
+        # Let's update and return the training loss metric.
+        self.loss_tracker.update_state(accuracy)
+        return {"accuracy": self.loss_tracker.result()}
+        
     def _compute_loss(self, data):
         # The output of the network is a tuple containing the distances
         # between the anchor and the positive example, and the anchor and
