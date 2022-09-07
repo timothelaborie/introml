@@ -146,3 +146,7 @@ task2/catboost_info/catboost_training.json
 task2/catboost_info/learn/events.out.tfevents
 task2/catboost_info/learn_error.tsv
 task2/catboost_info/time_left.tsv
+task3/catboost_info/time_left.tsv
+task3/catboost_info/learn_error.tsv
+task3/catboost_info/learn/events.out.tfevents
+task3/catboost_info/catboost_training.json
