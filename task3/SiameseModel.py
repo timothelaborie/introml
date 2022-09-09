@@ -2,6 +2,8 @@ from keras import layers
 from keras import Model
 from keras import metrics
 import tensorflow as tf
+from keras.models import Model
+import keras.backend as K
 
 
 class SiameseModel(Model):
@@ -71,3 +73,24 @@ class SiameseModel(Model):
         # We need to list our metrics here so the `reset_states()` can be
         # called automatically.
         return [self.loss_tracker]
+
+
+
+
+
+
+
+
+    # def dot_similarity(self, x, y):
+    #     x = K.reshape(x, (K.shape(x)[0], -1))
+    #     y = K.reshape(y, (K.shape(y)[0], -1))
+    #     return K.dot(x, K.transpose(y))
+    
+    # def cosine_similarity(self, x, y):
+    #     x = K.reshape(x, (K.shape(x)[0], -1))
+    #     y = K.reshape(y, (K.shape(y)[0], -1))
+    #     abs_x = K.sqrt(K.sum(K.square(x), axis=1, keepdims=True))
+    #     abs_y = K.sqrt(K.sum(K.square(y), axis=1, keepdims=True))
+    #     up = K.dot(x, K.transpose(y))
+    #     down = K.dot(abs_x, K.transpose(abs_y))
+    #     return up / down
