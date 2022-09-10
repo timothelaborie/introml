@@ -65,8 +65,8 @@ class SiameseModel(Model):
         ap_distance, an_distance, q, p, n = self.siamese_network(data)
 
         # mean_distance = (ap_distance + an_distance) / 2
-        # mult1 = tf.ones_like(mean_distance) + tf.cast(tf.greater(mean_distance, tf.ones_like(mean_distance) * 1.3), tf.float32)*0.0
-        # mult2 = tf.ones_like(mean_distance) + tf.cast(tf.greater(tf.ones_like(mean_distance) * 1, mean_distance), tf.float32)*0.0
+        # mult1 = tf.ones_like(mean_distance) + tf.cast(tf.greater(ap_distance, tf.ones_like(mean_distance) * 1.5), tf.float32)*1.0
+        # mult2 = tf.ones_like(mean_distance) + tf.cast(tf.greater(tf.ones_like(mean_distance) * 0.5, an_distance), tf.float32)*1.0
 
 
         # loss = ap_distance*mult1 - an_distance*mult2
