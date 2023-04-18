@@ -1,5 +1,7 @@
 ETH intro to machine learning 2022 projects
 
+For context, there were about 400 teams.
+
 # leaderboard positions
 
 ## task 2
