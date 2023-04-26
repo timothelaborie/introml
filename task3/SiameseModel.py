@@ -51,7 +51,7 @@ class SiameseModel(Model):
     def test_step(self, data):
         # Compute accuracy
         # Return 1 if the distance between the anchor and the positive is smaller than the distance between the anchor and the negative, 0 otherwise.
-        ap_distance, an_distance, anchor, positive, negative = self.siamese_network(data)
+        ap_distance, an_distance = self.siamese_network(data)
         accuracy = tf.cast(ap_distance < an_distance, tf.float32)
         
         # Let's update and return the training loss metric.
@@ -62,7 +62,7 @@ class SiameseModel(Model):
         # The output of the network is a tuple containing the distances
         # between the anchor and the positive example, and the anchor and
         # the negative example.
-        ap_distance, an_distance, q, p, n = self.siamese_network(data)
+        ap_distance, an_distance = self.siamese_network(data)
 
         # mean_distance = (ap_distance + an_distance) / 2
         # mult1 = tf.ones_like(mean_distance) + tf.cast(tf.greater(ap_distance, tf.ones_like(mean_distance) * 1.5), tf.float32)*1.0
