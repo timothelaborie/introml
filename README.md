@@ -1,4 +1,4 @@
-ETH intro to machine learning 2022 projects
+ЕTН intrо to machine lеarning 2022 рrojects
 
 For context, there were about 400 teams.
 
