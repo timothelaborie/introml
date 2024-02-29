@@ -1,9 +1,5 @@
 # Food triplet classifier
 
-## Leaderboard position
-
-First place with 77.7% accuracy (second place got 75.7% and there were about 400 teams)
-
 ## How I got first place
 
 I started with this [Keras Siamese Network Example](https://keras.io/examples/vision/siamese_network/). In the middle of the page, you can see that their embeddings extractor is 
@@ -36,6 +32,8 @@ I then realized the learning rate was way too high as it was overfitting after a
 
 Next, I concatenated the features of XL and ResNet 50, and made a submission for every epoch. This got me 76.7%.
 
+At this point the project deadline was over, but I felt like improving it further for fun.
+
 I then tried various techniques like circle loss, or a different embeddings extractor, but the only thing that improved it was setting up a weighted ensemble of triplet loss models, each trained using their own feature extractor. In the end, I had 
 
 ```python
@@ -44,7 +42,16 @@ score_left = 0.5*row[0] + row[1] + row[2] + 0.5*row[3]
 
 where the models are EfficientNet XL, ResNet50, CLIP, Vision Transformer, each trained on 7 epochs. Each "row" value is the model's predicted (left-right) distance.
 
+This got me 77.7%
+
 ## Training code
 
 https://github.com/timothelaborie/introml/blob/main/task3/main.ipynb
 
+## Leaderboard Screenshot
+
+![leaderboard](https://github.com/timothelaborie/introml/blob/main/task3/iml%20task%203.png)
+
+There were about 400 teams.
+
+First place with 77.7% accuracy (second place got 75.7% and there were about 400 teams)
